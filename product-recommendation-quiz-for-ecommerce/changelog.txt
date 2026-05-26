@@ -1,5 +1,8 @@
 *** Product Recommendation Quiz for WooCommerce ***
 
+2026-05-26 - version 2.3.7
+* Dev - Refreshed plugin intro video on the WordPress.org listing
+
 2026-05-26 - version 2.3.6
 * Dev - Tested up to WooCommerce 10.7.0
 

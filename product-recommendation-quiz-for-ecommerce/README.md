@@ -7,7 +7,7 @@ Turn WooCommerce shoppers into leads and buyers with an interactive product reco
 Build beautiful, high-converting product recommendation quizzes — no coding needed.  
 The [Product Recommendation Quiz for WooCommerce](https://revenuehunt.com/product-recommendation-quiz-woocommerce/ "Product Recommendation Quiz for WooCommerce") helps you guide every shopper to their perfect product, collect valuable data, and drive measurable results across your store and marketing channels.
 
-[![Product Recommendation Quiz for WooCommerce](https://img.youtube.com/vi/SX-BZBl1PFw/0.jpg)](http://www.youtube.com/watch?v=SX-BZBl1PFw)
+[![Product Recommendation Quiz for WooCommerce](https://img.youtube.com/vi/gOpJRkRLfbc/0.jpg)](http://www.youtube.com/watch?v=gOpJRkRLfbc)
 
 Create stunning quizzes with our **AI-powered quiz builder**, gain insights into your customers’ preferences, and sync results with your mailing list or CRM to launch high-ROI marketing campaigns.  
 Start creating personalized shopping experiences that boost engagement, conversions, and loyalty.

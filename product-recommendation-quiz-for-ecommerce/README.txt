@@ -5,7 +5,7 @@ Tags: quiz, product recommendation, woocommerce, ecommerce, personalization
 Requires at least: 3.0.1
 Tested up to: 7.0
 Requires PHP: 5.6
-Stable tag: 2.3.6
+Stable tag: 2.3.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -16,7 +16,7 @@ Turn WooCommerce shoppers into leads and buyers with an interactive product reco
 Build beautiful, high-converting product recommendation quizzes — no coding needed.  
 RevenueHunt helps you guide every shopper to their perfect product, collect valuable data, and drive measurable results across your WooCommerce store and marketing channels.
 
-[youtube https://www.youtube.com/watch?v=SX-BZBl1PFw]
+https://www.youtube.com/watch?v=gOpJRkRLfbc
 
 Create quizzes with our **AI-powered quiz builder**, gain insights into your customers’ preferences, and sync results with your mailing list or CRM to launch high-ROI marketing campaigns.  
 Start creating personalized shopping experiences that boost engagement, conversions, and loyalty.
@@ -108,6 +108,9 @@ Visit our [FAQs page](https://revenuehunt.com/faqs/ "Frequently Asked Questions"
 8. Cart integration – Link recommendations directly to your WooCommerce cart.
 
 == Changelog ==
+
+= 2.3.7 =
+* Dev - Refreshed plugin intro video on the WordPress.org listing
 
 = 2.3.6 =
 * Dev - Tested up to WooCommerce 10.7.0

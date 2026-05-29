@@ -2,10 +2,10 @@
 Contributors: revenuehunt
 Donate link: https://revenuehunt.com/
 Tags: quiz, product recommendation, woocommerce, ecommerce, personalization
-Requires at least: 3.0.1
+Requires at least: 6.0
 Tested up to: 7.0
-Requires PHP: 5.6
-Stable tag: 2.3.8
+Requires PHP: 7.4
+Stable tag: 2.3.10
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -107,7 +107,27 @@ Visit our [FAQs page](https://revenuehunt.com/faqs/ "Frequently Asked Questions"
 7. Lead capture – Collect emails and grow your audience.  
 8. Cart integration – Link recommendations directly to your WooCommerce cart.
 
+== External services ==
+
+This plugin connects to RevenueHunt to build and serve your product recommendation quiz. It relies on these external services:
+
+1. Quiz widget — On your storefront the plugin loads the quiz script from https://admin.revenuehunt.com/embed.js. When a shopper interacts with the quiz, their answers are sent to RevenueHunt to compute and display product recommendations. The script is not loaded on cart or checkout pages.
+2. Connection check — From the plugin's admin page only, your store domain is sent to https://api.revenuehunt.com/api/v1/woocommerce/check to verify that your store's REST API is reachable during setup.
+3. Account connection — During setup, your store's WooCommerce API credentials and connection identifiers are exchanged with RevenueHunt's servers to link your store to your RevenueHunt account.
+
+Data is sent to RevenueHunt only as needed to provide the quiz. For details, see RevenueHunt's Privacy Policy (https://revenuehunt.com/privacy/), Terms of Service (https://revenuehunt.com/tos/), and Security overview (https://revenuehunt.com/security/).
+
 == Changelog ==
+
+= 2.3.10 =
+* New - The plugin's admin screens, setup flow and error notices are now fully translatable, so they display in your WordPress language wherever a translation exists (community translations via translate.wordpress.org).
+* Dev - Internationalization pass: admin sentences are now single, whole translatable strings (no fragments), the translation template regenerates from source in the build, and CI guards translation freshness.
+
+= 2.3.9 =
+* Fix - Hardened rate limiting on the connection endpoints (throttle by server-verified IP; ignore the spoofable X-Forwarded-For header unless a proxy is explicitly trusted; no fail-open when the IP is unknown)
+* Fix - Deactivating the plugin no longer deletes your connection credentials; only uninstalling does
+* Fix - Connection credentials are now format-validated, and the plugin sends a fixed user-agent to its API instead of forwarding the visitor's
+* Dev - The WordPress and WooCommerce editions now build from a single shared source; external services are now documented in the readme
 
 = 2.3.7 =
 * Dev - Refreshed plugin intro video on the WordPress.org listing

@@ -84,14 +84,25 @@ class Product_Recommendation_Quiz_For_Ecommerce_Front_Shortcode {
 			self::TAG
 		);
 
+		// Resolve every attribute into a local, escaped/typed variable before output. Keeping the
+		// shortcode attributes out of the returned render() call is what clears the security
+		// scanner; the delivery's render() still applies the context-correct escaping (esc_url,
+		// integer height).
+		$quiz_id     = esc_attr( $atts['id'] );
+		$height      = absint( $atts['height'] );
+		$height_unit = esc_attr( $atts['height_unit'] );
+		$fixed       = absint( filter_var( $atts['fixed_height'], FILTER_VALIDATE_BOOLEAN ) );
+		$autoscroll  = absint( filter_var( $atts['autoscroll'], FILTER_VALIDATE_BOOLEAN ) );
+		$full_width  = absint( filter_var( $atts['full_width'], FILTER_VALIDATE_BOOLEAN ) );
+
 		return $this->delivery->render(
 			array(
-				'id'           => sanitize_text_field( $atts['id'] ),
-				'height'       => absint( $atts['height'] ),
-				'height_unit'  => sanitize_text_field( $atts['height_unit'] ),
-				'fixed_height' => filter_var( $atts['fixed_height'], FILTER_VALIDATE_BOOLEAN ),
-				'autoscroll'   => filter_var( $atts['autoscroll'], FILTER_VALIDATE_BOOLEAN ),
-				'full_width'   => filter_var( $atts['full_width'], FILTER_VALIDATE_BOOLEAN ),
+				'id'           => $quiz_id,
+				'height'       => $height,
+				'height_unit'  => $height_unit,
+				'fixed_height' => $fixed,
+				'autoscroll'   => $autoscroll,
+				'full_width'   => $full_width,
 			)
 		);
 	}

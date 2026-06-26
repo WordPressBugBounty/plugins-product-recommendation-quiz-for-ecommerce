@@ -71,14 +71,47 @@ class Product_Recommendation_Quiz_For_Ecommerce_Autoloader {
 			case 'Product_Recommendation_Quiz_For_Ecommerce_Admin_Page':
 				require_once plugin_dir_path( __DIR__ ) . 'admin/class-product-recommendation-quiz-for-ecommerce-admin-page.php';
 				break;
+			case 'Product_Recommendation_Quiz_For_Ecommerce_Admin_Embeds_Page':
+				require_once plugin_dir_path( __DIR__ ) . 'admin/class-product-recommendation-quiz-for-ecommerce-admin-embeds-page.php';
+				break;
+			case 'Product_Recommendation_Quiz_For_Ecommerce_Embeds_Settings':
+				require_once plugin_dir_path( __DIR__ ) . 'includes/class-product-recommendation-quiz-for-ecommerce-embeds-settings.php';
+				break;
 			case 'Product_Recommendation_Quiz_For_Ecommerce_Admin_Diagnostics':
 				require_once plugin_dir_path( __DIR__ ) . 'admin/class-product-recommendation-quiz-for-ecommerce-admin-diagnostics.php';
+				break;
+			case 'Product_Recommendation_Quiz_For_Ecommerce_Site_Health':
+				require_once plugin_dir_path( __DIR__ ) . 'admin/class-product-recommendation-quiz-for-ecommerce-site-health.php';
 				break;
 			case 'Product_Recommendation_Quiz_For_Ecommerce_Admin_Oauth_Url_Builder':
 				require_once plugin_dir_path( __DIR__ ) . 'admin/class-product-recommendation-quiz-for-ecommerce-admin-oauth-url-builder.php';
 				break;
+			case 'Product_Recommendation_Quiz_For_Ecommerce_Admin_Operator_Capture':
+				require_once plugin_dir_path( __DIR__ ) . 'admin/class-product-recommendation-quiz-for-ecommerce-admin-operator-capture.php';
+				break;
+			case 'Product_Recommendation_Quiz_For_Ecommerce_Delivery':
+				require_once plugin_dir_path( __DIR__ ) . 'front/interface-product-recommendation-quiz-for-ecommerce-delivery.php';
+				break;
 			case 'Product_Recommendation_Quiz_For_Ecommerce_Front_Embed_Script':
 				require_once plugin_dir_path( __DIR__ ) . 'front/class-product-recommendation-quiz-for-ecommerce-front-embed-script.php';
+				break;
+			case 'Product_Recommendation_Quiz_For_Ecommerce_Embed_Markers':
+				require_once plugin_dir_path( __DIR__ ) . 'front/class-product-recommendation-quiz-for-ecommerce-embed-markers.php';
+				break;
+			case 'Product_Recommendation_Quiz_For_Ecommerce_Front_Global_Embed':
+				require_once plugin_dir_path( __DIR__ ) . 'front/class-product-recommendation-quiz-for-ecommerce-front-global-embed.php';
+				break;
+			case 'Product_Recommendation_Quiz_For_Ecommerce_Delivery_Resolver':
+				require_once plugin_dir_path( __DIR__ ) . 'front/class-product-recommendation-quiz-for-ecommerce-delivery-resolver.php';
+				break;
+			case 'Product_Recommendation_Quiz_For_Ecommerce_Front_Shortcode':
+				require_once plugin_dir_path( __DIR__ ) . 'front/class-product-recommendation-quiz-for-ecommerce-front-shortcode.php';
+				break;
+			case 'Product_Recommendation_Quiz_For_Ecommerce_Front_Block':
+				require_once plugin_dir_path( __DIR__ ) . 'front/class-product-recommendation-quiz-for-ecommerce-front-block.php';
+				break;
+			case 'Product_Recommendation_Quiz_For_Ecommerce_Front_Embed_Blocks':
+				require_once plugin_dir_path( __DIR__ ) . 'front/class-product-recommendation-quiz-for-ecommerce-front-embed-blocks.php';
 				break;
 			case 'Product_Recommendation_Quiz_For_Ecommerce_Rest_Set_Token_Controller':
 				require_once plugin_dir_path( __DIR__ ) . 'rest/class-product-recommendation-quiz-for-ecommerce-rest-set-token-controller.php';

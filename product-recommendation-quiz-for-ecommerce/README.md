@@ -68,7 +68,6 @@ Easily connect with your favorite tools, including:
 ## See the Plugin in Action
 
 Explore how the plugin works in our [product recommendation quiz demo store](https://productrecommendationquiz.com/ "Demo Product Recommendation Quiz Store").  
-Or build your own quiz for free on a [test site](https://tastewp.com/template/d2pbbNMPvZg "Demo WooCommerce Dashboard").
 
 ## Installation
 

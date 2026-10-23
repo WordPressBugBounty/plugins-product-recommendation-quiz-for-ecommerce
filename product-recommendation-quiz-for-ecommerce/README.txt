@@ -67,7 +67,6 @@ Easily connect with your favorite tools like Google Analytics, Klaviyo, HubSpot,
 == See the plugin in action ==
 
 See how your customers will experience it in our [product recommendation quiz demo store](https://productrecommendationquiz.com/ "Demo Product Recommendation Quiz Store").  
-Or try building your own quiz for free on a [test site](https://tastewp.com/template/d2pbbNMPvZg "Demo WooCommerce Dashboard").
 
 == Installation ==
 
